@@ -24,4 +24,7 @@ e1.pack()
 b1 = Button(root, text="Click Me to Print!", bg="brown", fg="white", font=('Arial', 10), command=printBot)
 b1.pack(pady=10)
 
+label2 = Label(root, text="", font=('Roman', 14))
+label2.pack(pady=(10,15))
+
 mainloop()
