@@ -8,7 +8,7 @@ root.geometry("1250x700")
 ######## Functions
 
 def printBot():
-	pass
+	label2.config(text='You Wrote :- '+e1.get("1.0",'end-1c'))
 
 ########  Main Code
 
