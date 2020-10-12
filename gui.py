@@ -27,4 +27,7 @@ b1.pack(pady=10)
 label2 = Label(root, text="", font=('Roman', 14))
 label2.pack(pady=(10,15))
 
+label3 = Label(root, text="Positive %", font=('Arial', 14, 'bold'))
+label3.pack(pady=(0,5))
+
 mainloop()
