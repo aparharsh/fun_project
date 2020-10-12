@@ -30,4 +30,7 @@ label2.pack(pady=(10,15))
 label3 = Label(root, text="Positive %", font=('Arial', 14, 'bold'))
 label3.pack(pady=(0,5))
 
+e2 = Entry(root, width=30, border=2, font=('Arial', 12))
+e2.pack(pady=(0,30), ipady=4)
+
 mainloop()
